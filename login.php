@@ -28,7 +28,7 @@
         $resultado["msg"] = "E-mail e senha conferem!";
         $resultado["cod"] = 1;
       } else if ($qtd_users == 0){
-        $resultado["msg"] = "E-mail e senha não conferem";
+        $resultado["msg"] = "E-mail e senha não conferem!";
         $resultado["cod"] = 0;
       }
     } catch(PDOException $e) {

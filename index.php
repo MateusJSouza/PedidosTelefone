@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   <title>Registro de Pedidos 1.0</title>
 </head>
 <body>
   <header>
-    <h2>Efetue seu login</h2>
+    <h2>Registro de pedidos 1.0</h2>
   </header>
 
   <main class="container">
@@ -25,11 +27,15 @@
         </div>
         <?php endif; ?>
 
-        <label for="email">E-mail</label><br>
-        <input type="email" id="email" name="email" placeholder="Digite seu email"><br><br>
-  
-        <label for="password">Senha</label><br>
-        <input type="password" id="senha" name="password" placeholder="Digite sua senha"><br><br>
+        <div class="email">
+          <label for="email">E-mail</label><br>
+          <input type="email" id="email" name="email" placeholder="Digite seu email">
+        </div>
+          
+        <div class="password">
+          <label for="password">Senha</label><br>
+          <input type="password" id="senha" name="password" placeholder="Digite sua senha">
+        </div>
   
         <input type="submit" id="submeter" value="Entrar" class="btn btn-primary">
   

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 93.75%;
+}
+
+body {
+  background: #f0f2f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: min(90vw, 800px);
+  margin: auto;
+}
+
+/* Header =======================*/ 
+header {
+  background: #233355;
+  padding: 2rem 0 2rem;
+  text-align: center;
+}
+
+header h2 {
+  color: white;
+}
+
+/* Formulário =======================*/ 
+
+.form-section {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  margin-bottom: 2rem;
+
+  width: 50%;
+  position: relative;
+}
+
+#form-login {
+  text-align: center;
+}
+
+/* Labels =======================*/ 
+label {
+  text-align: left;
+}
+
+.email label {
+  margin-bottom: .5rem;
+}
+
+.password label {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+/* Links and Buttons =======================*/ 
+#submeter {
+  margin-top: 1rem;
+}
